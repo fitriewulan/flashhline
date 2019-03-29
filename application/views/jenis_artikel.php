@@ -1,7 +1,7 @@
 <?php $this->load->view('header') ?>
 <div class="row">
 			<div class="col-xs-5 col-md-5 judul">
-				<h1 style="color:#223229;"><img src="" style="width:60px; height:60px;"><b><?= $jenis['jenis']?></b></h1>
+				<h1 style="color:#223229;"><img src="<?= base_url('resource/img/'.$jenis['jenis'].'.gif')?>" style="width:60px; height:60px;"><b><?= $jenis['jenis']?></b></h1>
 			</div>
 			<div class="col-xs-7 col-md-7 iklan2">
 				<img src="<?= base_url('resource/img/iklan1.jpg')?>" width="100%">

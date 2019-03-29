@@ -1,0 +1,274 @@
+<html>
+<head>
+	<title>Soccer</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styel.css">
+	<link rel="stylesheet" type="text/css" href="soccer.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.css" rel="stylesheet">
+	<link href="assets/css/docs.css" rel="stylesheet" >
+	<link href="bootstrap-social.css" rel="stylesheet" >
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="btn-group" role="group" aria-label="..." style="float:left;">
+						<div class="btn-group logo" role="group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="img/1.png">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" style="width:300px;">
+								<li style="padding:20px 30px;"><a href="Contenpage1.html"><img src="img/2.gif">Soccer</a></li>
+								<li style="padding:20px 30px;"><a href="Contenpage1.html"><img src="img/beladiri.gif">Bela Diri</a></li>
+								<li style="padding:20px 30px;"><a href="CP-otomotif.html"><img src="img/otomotif.gif">MotoSport</a></li>
+								<li style="padding:20px 30px;"><a href="CP-raket.html"><img src="img/6.gif">Raket</a></li>
+								<li style="padding:20px 30px;"><a href="Contenpage1.html"><img src="img/5.gif">Lainnya</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control search1" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default button1">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>   
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#Daftar-modal" data-toggle="modal">Daftar</a></li>
+						<li><a href="#login-modal" data-toggle="modal" class="btn-success">Login</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</div>
+	</nav>
+		<!-- daftar -->
+<div class="container">
+	<div class="modal fade" id="Daftar-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Daftar FlashLine</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Nama</label>
+							<input type="text" class="form-control" id="exampleInputName" placeholder="Nama Lengkap">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Ulangi Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Daftar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- Login-->
+	<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Login FlashLine</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</form>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-5 col-md-5 judul">
+				<h1 style="color:#223229;"><img src="img/2.gif" style="width:60px; height:60px;"><b>Soccer</b></h1>
+			</div>
+			<div class="col-xs-7 col-md-7 iklan2">
+				<img src="img/iklan1.jpg">
+			</div>
+		</div>
+		<div class="row">
+			<nav class="navbar navbar-inverse bawah">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html" style="background-color:#223229; size:16px; color:#fff; padding:22px;">HOME</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul class="nav navbar-nav">
+			        <li><a href="liga.html">LIGA</a></li>
+			        <li><a href="klasemen.html">KLASEMEN</a></li>
+			        <li><a href="siaranlangsung.html">SIARAN LANGSUNG</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+			<div class="row wel">	
+				<div class="col-md-9 content">
+					<div class="content1 row">
+							<h2><p>Tiga Bintang Inter Dilarang Hengkang</p></h2>
+							<p>Selasa, 31 Mei 2016</p>
+							<img src="artikel/artikel7.jpg">
+							<p>
+								<b>Soccer</b> - Presiden Inter Milan Erick Thohir berhasrat mempertahankan tiga pemain bintangnya, yaitu Mauro Icardi, Ivan Perisic, dan Miranda. Ketiga pemain tersebut cukup menggiurkan menilik nilai pasar. Mereka termasuk dalam lima pemain Inter dengan harga tertinggi. Meski begitu, sang patron tidak tergoda untuk menambah pundi-pundi dengan risiko mereduksi kekuatan tim. "Untuk siapa pun yang ingin mendekati, pemain seperti Icardi, Perisic, dan Miranda tidak dijual," kata Thohir.
+
+								<br><br>Tidak dimungkiri oleh Thohir, klub berjulukan I Nerazzurri dituntut menyeimbangkan neraca keuangan demi menaati Financial Fair Play (FFP). Inter semakin tertekan karena gagal masuk ke Liga Champions 2016-2017. Mereka mengakhiri Serie A musim ini di posisi keempat sehingga hanya boleh tampil di kompetisi kasta kedua, Liga Europa. "Liga Europa juga bukanlah bencana. Kami baru mendapatkan masalah apabila tidak lolos ke kompetisi antarklub Eropa sama sekali," ucap sang patron. "Oleh karena itu, kami tidak akan menjual enam pemain inti. Kami mungkin menjual tiga, tidak lebih," tutur dia. Adapun untuk transfer masuk, Inter belum mengumumkan satu pun nama. Mereka baru diberitakan semakin dekat dengan gelandang Valencia, Ever Banega.
+
+								<br><br>Sumber: <a href="www.kompas.com/soccer">www.kompas.com/bola</a>
+							</p>
+					</div>		
+					<div class=" row linkshare">
+						<a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>
+						<a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a>
+						<a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"><span class="fa fa-google"></span></a>
+						<a class="btn btn-social-icon btn-pinterest" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-pinterest']);"><span class="fa fa-pinterest"></span></a>
+					</div>
+					<div class = "row komentar" style="widht:100%;">
+						<h3>KOMENTAR</h3>
+						<textarea class="form-control" rows="3"></textarea>
+						<button type="submit" class="btn btn-primary">Komentar</button>
+					</div>	
+				</div>
+				<div class="col-md-3 sidebar">
+					<div class="iklan">
+						<img src="img/iklan.jpg">
+					</div>
+					<div class="last-News">
+						<img src="img/LN.jpg">
+						<ul>
+							<li><a href="raket-thomas-uber2.html">Piala Thomas dan Uber 2016</a></li>
+							<li><a href="raket-thomas-uber1.html">Alasan Tim Piala Thomas Indonesia Kembali Turunkan Tommy Sugiarto</a></li>
+							<li><a href="raket-thomas-uber2.html">Tim Uber Indonesia Harus Akui Keunggulan Thailand</a></li>
+							<li><a href="Otomotif-Gp-itali.html">Hasil Lengkap GP Italia dan Klasemen MotoGP 2016</a></li>
+							<li><a href="motoSport-Rio-Haryanto-Cetak.html">Rio Haryanto Cetak Catatan Terbaik di Sirkuit de Catalunya Barcelona</a></li>
+							<li><a href="soccer_persib(2).html">Persib Sudah Dapat Tawaran Laga Internasional</a></li>
+							<li><a href="soccer-Tanpa-Ibrahimovic-Swedia.html">Tanpa Ibrahimovic, Swedia Diimbangi Slovenia</a></li>
+							<li><a href="motoSport-Rio-Senang-Dapat-Finish.html">Rio Haryanto Senang Dapat Finis di GP Monaco</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="footer">
+		<div class="row" style="background:#314239; margin-right: 0px;margin-left: 0px;">
+			<div class="container">
+				<div class="col-md-12 container_32 mt20">
+					<div class="col-md-6 grid_18">
+						<div class=" row ml20">
+							<img src="artikel/judul1.png">
+						</div>
+						<div class="row mt10">
+							<span class="mr10" style="color:#fff;">Support By:</span>
+						</div>
+						<div class="partner mt40">
+							<ul>
+								<li><a href="www.mnc.com"><img src="artikel/mnc.png"></a></li>
+								<li><a href="www.kompas.com"><img src="artikel/s.png"></a></li>
+								<li><a href="www.sindonews.com"><img src="artikel/sindo.png"></a></li>
+							</ul>
+						</div>
+					</div>
+		 			<div class="col-md-6 grid_14">
+		 				<div class="w160 fl-l link-foot"><span>CHANNEL</span>
+		 					<ul>
+		 						<li><a href="index.htm">Home</li></a>
+		 						<li><a href="Nasional.html">Nasional</li></a>
+		 						<li><a href="Internasional.html">Internasional</li></a>
+		 						<li><a href="Siaranlangsung.html">Siaran Langsung</li></a>
+		 					<ul>
+		 				</div>
+			 			<div class="w160 fl-l link-foot"><span>SPORT</span>
+		 					<ul>
+		 						<li><a href="cp-basket.html">Basket</li></a>
+		 						<li><a href="CP-Otomotif.html">MotoGP</li></a>
+		 						<!-- <li><a href="#">F1</li></a> -->		 					
+		 						<li><a href="CP-Raket.html">Raket</li></a>
+		 						<li><a href="COntenpage1">Sepak Bola</li></a>
+		 						<li><a href="#">Sport Lain</li></a>
+		 						<li><a href="#">Galeri</li></a>
+		 					<ul>
+		 				</div>
+			 			<div class="w160 fl-l link-foot"><span>MANAGEMENT</span>
+		 					<ul>
+		 						<!-- <li><a href="">Tentang Kami</li></a> -->
+		 						<li><a href="Copyright.html">Kontak Kami</li></a>
+		 						<li><a href="infoiklan.html">Iklan Kami</li></a>
+		 						<li><a href="redaksi.html">Readaksi</a></li>
+								<li><a href="#">Karir</a></li>
+								<li><a href="disclamer.html">Disclamer</a></li>
+								<li><a href="privacy-police.html">Privacy policy</a></li>
+		 					</ul>
+		 				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="garis" style="background-color:#fff; border: 1px solid #fff;">
+		</div>
+		<div class="garis" style="background-color:#fff; border: 2px solid #10bb60;">
+		</div>
+		<div class="garis" style="background-color:#fff; border: 1px solid #fff;">
+		</div>
+		<div class="container">
+			<div class="footerr"style="text-align:center;">
+				<p>Copyright&2016 FlashLine, All Right Reserved </p>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

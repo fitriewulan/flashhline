@@ -28,8 +28,8 @@
     <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="<?= base_url('resource/admin/build/css/style.default.css')?>" id="theme-stylesheet">
     <link rel="stylesheet" type="text/css" href="<?= base_url('resource/admin/build/vendor/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css')?>">
-    <script src="<?= base_url('resource/js/ckeditor.js')?>"></script>
-    <script src="<?= base_url('resource/js/sample.js')?>"></script>
+    <script src="<?= base_url('resource/admin/js/ckeditor.js')?>"></script>
+    <script src="<?= base_url('resource/admin/js/sample.js')?>"></script>
     <link rel="stylesheet" href="<?= base_url('resource/css/samples.css')?>">
     <link rel="stylesheet" href="<?= base_url('resource/toolbarconfigurator/lib/codemirror/neo.css')?>">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>

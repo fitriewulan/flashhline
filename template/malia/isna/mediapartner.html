@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FlashLine</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styel.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="assets/css/font-awesome.css" rel="stylesheet">
+	<link href="assets/css/docs.css" rel="stylesheet" >
+	<link href="bootstrap-social.css" rel="stylesheet" >
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="btn-group" role="group" aria-label="..." style="float:left;">
+						<div class="btn-group logo" role="group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="img/2.png">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" style="width:300px;">
+								<li style="padding:20px 30px;"><a href="#"><img src="img/2.png">Soccer</a></li>
+								<li style="padding:20px 30px;"><a href="#"><img src="img/beladiri.png">Bela Diri</a></li>
+								<li style="padding:20px 30px;"><a href="#"><img src="img/otomotif.png">Otomotif</a></li>
+								<li style="padding:20px 30px;"><a href="#"><img src="img/6.png">Raket</a></li>
+								<li style="padding:20px 30px;"><a href="#"><img src="img/5.png">Lainnya</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control search1" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default button1">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>   
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#Daftar-modal" data-toggle="modal">Daftar</a></li>
+						<li><a href="#login-modal" data-toggle="modal" class="btn-success">Login</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</div>
+	</nav>
+	<!-- daftar -->
+	<div class="container">
+		<div class="modal fade" id="Daftar-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Daftar FlashLine</h4>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Nama</label>
+								<input type="text" class="form-control" id="exampleInputName" placeholder="Nama Lengkap">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Ulangi Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Daftar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Login-->
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Login FlashLine</h4>
+					</div>
+					<div class="modal-body">
+						<form>
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
+							</form>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Login</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="judul">
+				<img src="img/judul.png">
+			</div>
+		</div>
+		<div class="row">
+			<nav class="navbar navbar-inverse bawah">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">HOME</a></li>
+			        <li><a href="#">NASIONAL</a></li>
+			        <li><a href="#">INTERNASIONAL</a></li>
+			        <li><a href="#">SIARAN LANGSUNG</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<div class="row">	
+		<div class="col-md-3 sidebar">
+				
+				<div class="management">
+					<ul>
+						<li><a href="management.html">Redaksi</a></li>
+		 				<li><a href="pedomanmediasiber.html">pedoman Media Siber</li></a>
+		 				<li><a href="infoiklan.html">Info Iklan</li></a>
+						<li><a href="mediapartner">Media Partner</li></a>
+						<li><a href="disclaimer.html">Disclamer</a></li>
+						<li><a href="privacy-police.html">Privacy policy</a></li>
+						<li><a href="copyright.html">Copyright</a></li>
+		 				</ul>
+				</div>
+				<div class="iklan">
+					<img src="img/iklan.png">
+				</div>
+			</div>
+			<div class="col-md-9 content">
+				<div class="content1 row">
+					<h2>Media Partner</h2>
+					<div class="col-md-12 redaksi">
+						<p>Media Partner
+							Rencanakan event perusahaan Anda baik seminar atau kegiatan publikasi lainnya bersama DETIKCOM sebagai Media Partner Anda.<br>
+							Dengan jangkauan pembaca yang luas, kami akan mempublikasikan kegiatan Anda melalui kanal-kanal yang dibaca jutaan pembaca seperti: Sepak Bola, Raket, Bela diri, Otomotif, dan sport lainnya.
+							Ajukan proposal kegiatan Anda melalui e-mail di promo@flashline.com atau hubungi kami Bagian Promosi 021-7941177 atau fax 021-79186565
+						</p>
+					</div>
+				</div>	
+					
+			</div>
+			
+			<div class="row" >
+				<div class="col-md-8 linkshare">
+					<a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>
+					<a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a>
+					<a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"><span class="fa fa-google"></span></a>
+					<a class="btn btn-social-icon btn-pinterest" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-pinterest']);"><span class="fa fa-pinterest"></span></a>
+				</div>
+			</div>
+				<div class="col-md-8 iklan2">
+					<img src="img/iklan1.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="row" style="background:#314239; margin-right: 0px;margin-left: 0px;">
+			<div class="container">
+				<div class="col-md-12 container_32 mt20">
+					<div class="col-md-6 grid_18">
+						<div class=" row ml20">
+							<img src="artikel/judul1.png">
+						</div>
+						<div class="row mt10">
+							<span class="mr10" style="color:#fff;">Support By:</span>
+						</div>
+						<div class="partner mt40">
+							<ul>
+								<li><a href="#"><img src="artikel/mnc.png"></a></li>
+								<li><a href="#"><img src="artikel/s.png"></a></li>
+								<li><a href="#"><img src="artikel/sindo.png"></a></li>
+							</ul>
+						</div>
+					</div>
+		 			<div class="col-md-6 grid_14">
+		 				<div class="w160 fl-l link-foot"><span>CHANNEL</span>
+		 					<ul>
+		 						<li><a href="#">Home</li></a>
+		 						<li><a href="#">Sport</li></a>
+		 						<li><a href="#">Nasional</li></a>
+		 						<li><a href="#">Internasional</li></a>
+		 						<li><a href="#">Siaran Langsung</li></a>
+		 					<ul>
+		 				</div>
+			 			<div class="w160 fl-l link-foot"><span>SPORT</span>
+		 					<ul>
+		 						<li><a href="#">Basket</li></a>
+		 						<li><a href="#">MotoGP</li></a>
+		 						<li><a href="#">F1</li></a>
+		 						<li><a href="#">Raket</li></a>
+		 						<li><a href="#">Sepak Bola</li></a>
+		 						<li><a href="#">Sport Lain</li></a>
+		 						<li><a href="#">Galeri</li></a>
+		 					<ul>
+		 				</div>
+			 			<div class="w160 fl-l link-foot"><span>MANAGEMENT</span>
+		 					<ul>
+		 						<li><a href="#">Tentang Kami</li></a>
+		 						<li><a href="#">Kontak Kami</li></a>
+		 						<li><a href="#">Iklan Kami</li></a>
+		 						<li><a href="#">Readaksi</a></li>
+								<li><a href="#">Karir</a></li>
+								<li><a href="#">Disclamer</a></li>
+								<li><a href="#">Privacy policy</a></li>
+		 					</ul>
+		 				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="garis" style="background-color:#fff; border: 1px solid #fff;">
+		</div>
+		<div class="garis" style="background-color:#fff; border: 2px solid #10bb60;">
+		</div>
+		<div class="garis" style="background-color:#fff; border: 1px solid #fff;">
+		</div>
+		<div class="container">
+			<div class="footerr"style="text-align:center;">
+				<p>Copyright&2016 FlashLine, All Right Reserved </p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
